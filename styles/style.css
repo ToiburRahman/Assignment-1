@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+
+#nav-options ul li {
+    list-style: none;
+    text-align: justify;
+    display: inline;
+      width: 365px;
+    height: 300px;
+    margin: 5px;
+    padding:100px 20px 30px 50px;
+    ;
+    
+
+
+}
+
+#nav-options ul li a {
+    text-decoration: none;
+    color: black;
+   
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 120px;
+    
+}
+#nav-options{
+    margin-top: 10px;
+}
+
+
+#nav-button button {
+    background-color: #30B868;
+    color: white;
+    width: 164px;
+    height: 44px;
+    Padding: 12px, 16px;
+    border-radius: 4px;
+    border-color: white;
+}
