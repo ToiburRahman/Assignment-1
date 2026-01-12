@@ -222,5 +222,36 @@
     background-color: #30B868;
     color: white;
     border: #469165;
-    
 }
+    
+ .footer-container{
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+ }
+
+.footer-social{
+    width: 220px;
+    text-align: left;
+
+}
+
+.footer-social p{
+    color: white;
+}
+
+ .footer-social img{
+    border: white;
+    border-radius: 10px;
+ }
+
+ .footer-up{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+ }
+
+ .hr-part p{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+ }
