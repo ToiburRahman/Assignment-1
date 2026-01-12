@@ -150,6 +150,7 @@
 
 .card-container{
     display: flex;
+    gap: 24px;
     justify-content: space-between;
     text-align: center;
 }
@@ -161,18 +162,15 @@
 }
 
 .brain-container{
-    width: 85%;
-    text-align:left;
+     
+    text-align: center;
     display: flex;
     justify-content: space-between;
 
 }
-.brain-content{
-  
-    display: block;
-    place-items: center;
-    
-}
+ .brain-content{
+    text-align: left;
+ }
 .brain-image img{
     width:550px; 
     height: 550px;
@@ -199,6 +197,11 @@
 
 .brain-content-lower p{
     font-weight: bold;
+}
+
+.brain-content-lower p img{
+    border: #F95555;
+    border-radius: 20px;
 }
 
 .ready-section, .ready-container{
@@ -255,3 +258,27 @@
     text-align: center;
     color: white;
  }
+
+
+
+
+
+
+ .cards-parent .cards-content h2{
+    font-size: 48px;
+    font-weight: bold;
+
+ }
+
+ .card-1 img{
+    background-color: #F95555;
+    border-radius: 25px;
+    padding: 10px;
+ }
+
+ .card-1{
+    box-shadow: inset 0 100px 0 0 0 ;
+    gap: ;
+
+ }
+
