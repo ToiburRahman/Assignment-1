@@ -126,3 +126,74 @@
      
    
 }
+
+.cards-parents{
+    padding: 0 120px;
+    width: 1360px;
+    margin: 0 auto;
+}
+.cards-content{
+    padding: 20px;
+    margin: 0 auto;
+     
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.cards-content h2 {
+     text-align: center;
+}
+.cards-content #para-upper{
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#brain{
+    width: 1360px;
+    padding: 120px 120px 120px 120px;
+}
+
+.brain-container{
+    text-align:left;
+    display: flex;
+    justify-content: space-between;
+
+}
+.brain-content{
+  
+    display: block;
+    place-items: center;
+    
+}
+.brain-image img{
+    width:600px; 
+    height: 600px;
+}
+
+.brain-container h3{
+    font-weight: 700px;
+    font-size: 48px;
+    font-weight: bold;
+}
+.brain-content-upper{
+    gap: 16px;
+}
+
+.brain-content .brain-content-upper, .brain-content-lower{
+    align-items: center;
+    /* align-items: center; */
+    /* display: flex; */
+    
+}
+.brain-content{
+    padding: 120px 0 120px 130px;
+}
+
+.brain-content-lower p{
+    font-weight: bold;
+}
